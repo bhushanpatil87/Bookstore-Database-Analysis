@@ -1,105 +1,101 @@
-📊 Bookstore Database Analysis
+<h1 align="center">📊 Bookstore Database Analysis</h1>
 
-SQL Database Design, ETL & Business Insights
+<p align="center">
+  SQL-based relational database design and business analysis using PostgreSQL
+</p>
 
-📌 Project Overview
+<hr>
 
-This project involves designing and analyzing a bookstore relational database using SQL (PostgreSQL).
+<h2>🔎 Project Overview</h2>
 
-The objective was to build a structured database system and extract meaningful insights related to sales, customer behavior, and inventory management.
+<p>
+This project involves designing and analyzing a <strong>relational bookstore database</strong> 
+using SQL (PostgreSQL). The goal was to manage and analyze data related to 
+<strong>books, customers, and orders</strong> to generate meaningful business insights.
+</p>
 
-This project demonstrates:
+<hr>
 
-✔ Database Design using SQL
-✔ Table Relationships (PK–FK)
-✔ ETL using CSV Data
-✔ Data Cleaning & Validation
-✔ Business-Oriented SQL Analysis
-✔ Inventory & Sales Insights
+<h2>🛠 Tools & Technologies</h2>
 
-🛠 Tools & Environment
-Database: PostgreSQL
-Query Tool: pgAdmin / SQL Editor
-Editor: VS Code
-Version Control: Git & GitHub
-🗂 Project Structure
-bookstore-sql-database/
-│
-├── schema.sql        → Table creation & relationships  
-├── data_import.sql   → CSV data loading (ETL)  
-├── queries.sql       → Analysis queries  
-└── README.md         → Documentation  
-🗄 Dataset Description
+<ul>
+  <li>🗄 PostgreSQL</li>
+  <li>💻 SQL (Joins, CTEs, Aggregations)</li>
+  <li>📂 CSV Data Import (ETL)</li>
+  <li>🧠 Relational Database Design</li>
+</ul>
 
-The dataset simulates a real-world bookstore system with:
+<hr>
 
-Books (title, author, price, stock)
-Customers (name, location, contact details)
-Orders (purchase transactions, quantity, revenue)
+<h2>📌 Key Objectives</h2>
 
-👉 These tables are connected using primary and foreign keys, forming a relational database structure
+<ul>
+  <li>Design a structured relational database with multiple tables</li>
+  <li>Establish relationships using primary and foreign keys</li>
+  <li>Perform data analysis on sales, customers, and inventory</li>
+  <li>Generate business insights using SQL queries</li>
+</ul>
 
-Initial Data Considerations:
+<hr>
 
-❌ Missing values
-❌ Inconsistent formats
-❌ Data duplication risk
-❌ Stock vs order mismatch
+<h2>🗄 Database Design</h2>
 
-🔍 Database Design & Methodology
-1️⃣ Schema Design
-Created Books, Customers, Orders tables
-Established relationships using:
-Primary Keys
-Foreign Keys
+<ul>
+  <li>Created <strong>Books, Customers, and Orders</strong> tables</li>
+  <li>Established one-to-many relationships using foreign keys</li>
+  <li>Structured schema for efficient data storage and retrieval</li>
+</ul>
 
-👉 Ensures structured and relational data storage (core DB concept)
+<p>
+Relational databases connect tables like Books, Customers, and Orders using keys 
+to enable efficient querying and analysis :contentReference[oaicite:0]{index=0}
+</p>
 
-2️⃣ Data Loading (ETL)
-Imported CSV data using SQL
-Validated data types and structure
-Ensured consistency across tables
-3️⃣ Data Analysis Using SQL
+<hr>
 
-Performed business-focused queries:
+<h2>🔄 Data Loading (ETL)</h2>
 
-✔ Total revenue calculation
-✔ Top-selling books identification
-✔ Customer purchase behavior analysis
-✔ Genre-wise sales trends
-✔ Inventory stock tracking
+<ul>
+  <li>Imported data from CSV files into database tables</li>
+  <li>Validated data types and ensured consistency</li>
+  <li>Handled missing and inconsistent values</li>
+</ul>
 
-👉 SQL helps analyze trends like best-selling products and inventory health
+<hr>
 
-4️⃣ Advanced SQL Techniques
-Joins (INNER, LEFT JOIN)
-Aggregations (SUM, AVG, COUNT)
-Filtering & Sorting
-CTEs (Common Table Expressions)
-Window Functions (ROW_NUMBER)
-📊 Key Insights Generated
+<h2>📈 Key Insights</h2>
 
-✔ Identified top-performing books and genres
-✔ Analyzed customer purchase patterns
-✔ Calculated total revenue and order trends
-✔ Detected low-stock inventory items
-✔ Evaluated overall sales performance
+<ul>
+  <li>Calculated total revenue generated from all orders</li>
+  <li>Identified top-selling books and popular genres</li>
+  <li>Analyzed customer purchasing behavior</li>
+  <li>Detected low-stock inventory items for restocking</li>
+</ul>
 
-🚀 SQL Skills Demonstrated
-Database Design & Schema Creation
-Relational Modeling (PK–FK)
-ETL (CSV Import & Validation)
-Query Optimization (basic)
-Data Analysis using SQL
-Aggregations & Joins
-Business Insight Generation
-📈 Why This Project Matters
+<hr>
 
-This project reflects real-world database use cases where businesses rely on structured data to:
+<h2>📊 SQL Analysis</h2>
 
-✔ Track sales and revenue
-✔ Manage inventory efficiently
-✔ Understand customer behavior
-✔ Support data-driven decision-making
+<p>
+✔ Joins – Combine data across tables<br>
+✔ Aggregations – SUM, AVG, COUNT<br>
+✔ Filtering – WHERE conditions<br>
+✔ CTEs – Advanced query structuring<br>
+✔ Window Functions – ROW_NUMBER()<br>
+</p>
 
-👉 Bookstore systems are common examples used to learn database design and analytics in real-world scenarios
+<hr>
+
+<h2>🚀 Why This Project Matters</h2>
+
+<p>
+This project demonstrates how SQL is used in real-world systems to analyze 
+sales performance, track inventory, and understand customer behavior. 
+Businesses rely on such analysis to make data-driven decisions and improve operations :contentReference[oaicite:1]{index=1}
+</p>
+
+<hr>
+
+<p align="center">
+  ⭐ If you found this project interesting, consider giving it a star!
+</p>
